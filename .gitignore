@@ -1,6 +1,7 @@
 
 # test file ignore
 test.py
+prerequisite.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
