@@ -6,7 +6,7 @@ load_dotenv()
 
 class Config:
     SECRET_KEY=os.getenv('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI=os.getenv('SQLALCHEMY_DATABASE_URI')
+    SQLALCHEMY_DATABASE_URI='sqlite:///user.db'
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 587  # Use 587 for SSL
     MAIL_USE_TLS = True  # Set to False if using SSL
